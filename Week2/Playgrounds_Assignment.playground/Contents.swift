@@ -60,7 +60,7 @@ print(difference(numbersTo: 100)) // function call to find difference between th
 // MARK : Euler project 7
 var counterOfPrimes = 1, currentNumber = 1
 
-while (counterOfPrimes < 10) { // if the case is <=, the loop calculates 10_002nd prime number too
+while (counterOfPrimes < 10_001) { // if the case is <=, the loop calculates 10_002nd prime number too
     currentNumber += 2 // there is no even number as prime number except 2, so numbers for checking are all odd numbers after number 2
     if(currentNumber.isPrime() == true){
         counterOfPrimes += 1
